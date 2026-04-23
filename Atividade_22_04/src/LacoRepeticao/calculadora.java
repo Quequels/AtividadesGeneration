@@ -9,9 +9,11 @@ public class calculadora {
 
 		Scanner leia = new Scanner(System.in);
 		
+		//declaracao de variaveis 
 		float num1,num2,resultado;
 		int escolha;
 		
+		//entrada de valores
 		System.out.println("*----- Calculadora de 2 Números -----*");
 		System.out.println("Digite o 1º Número: ");
 		num1 = leia.nextFloat();
@@ -26,6 +28,7 @@ public class calculadora {
 		System.out.println("4 - Divisão ");
 		escolha = leia.nextInt();
 		
+		//processamento
 		switch(escolha){
 		case 1 :
 			resultado = num1 + num2 ;

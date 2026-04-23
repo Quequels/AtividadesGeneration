@@ -6,10 +6,12 @@ public class MaiorMenor {
 
 	public static void main(String[] args) {
 		
+		//Declaracao de variaveis
 		int A,B,C,soma;
 		
 		Scanner leia = new Scanner(System.in);
 	
+		//entrada
 		System.out.println("Digite o valor de A: ");
 		A = leia.nextInt();
 		
@@ -19,6 +21,7 @@ public class MaiorMenor {
 		System.out.println("Digite o valor de C: ");
 		C = leia.nextInt();
 
+		//processamento e saida
 		
 		 soma = A + B ;
 		

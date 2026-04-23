@@ -7,8 +7,11 @@ public class Lanchonete {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner leia = new Scanner(System.in);
+		//Declaracao de variaveis
 		
 		int escolha, quantidade, preco, valorTotal;
+		
+		//entrada
 		
 		System.out.println("1- Cachorro Quente - R$ 10");
 		System.out.println("2- X-Salada - R$ 15");
@@ -22,6 +25,8 @@ public class Lanchonete {
 		
 		System.out.println("Digite a quantidade: ");
 		quantidade = leia.nextInt();
+		
+		//processamento
 		
 		switch (escolha) {
 		
