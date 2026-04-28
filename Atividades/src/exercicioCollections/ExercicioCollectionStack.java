@@ -19,7 +19,10 @@ public class ExercicioCollectionStack {
 			System.out.println("0-Sair\n");
 			System.out.println("Digite a opção desejada:\n");
 			opcao = leia.nextInt();
-			leia.nextLine(); switch (opcao) {
+			leia.nextLine(); 
+			
+			switch (opcao) {
+			
 			case 1:
 				
 				System.out.println("Digite o nome do Livro");
@@ -59,7 +62,7 @@ public class ExercicioCollectionStack {
 			
 				}
 			
-			}while (opcao != 0);
+			} while (opcao != 0);
 	}
 
 }

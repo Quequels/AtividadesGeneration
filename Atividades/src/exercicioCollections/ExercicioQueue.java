@@ -26,7 +26,7 @@ public class ExercicioQueue {
 		
 		
 		switch (opcao) {
-		case 1:
+		case 1: 
 			
 			System.out.println("Digite o nome do cliente:");
 			String nome = leia.nextLine();
